@@ -1,3 +1,1 @@
-# KAKAO CLONE
-
-Kakao Clone App
+# kakao-clone-examples
