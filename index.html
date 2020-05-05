@@ -1,22 +1,38 @@
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <style>
-            .box {
-                font-size: 50px;
-                background-color: green;
-                color: white;
-                transition: all 0.5s ease-in-out;
-            }
-            .box:hover {
-                background-color: red;
-                color: blue;
-            }
-        </style>
+        <title>Chats | Kakao Clone</title>
+        <link
+            rel="stylesheet"
+            href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
+            integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
+            crossorigin="anonymous"
+        />
     </head>
     <body>
-        <span class="box">Text</span>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span class="status-bar__clock">13:53</span>
+            </div>
+            <div class="status-bar__column">
+                <i class="far fa-clock"></i><i class="fas fa-volume-up"></i>
+                <i class="fas fa-wifi"></i>
+                <span class="status-bar__battery-level">100%</span>
+                <i class="fas fa-battery-full"></i>
+            </div>
+        </div>
+
+        <header class="header">
+            <div class="header__heador-column">
+                <h1 class="header__title">Chats</h1>
+            </div>
+            <div class="header__heador-column">
+                <span class="header__icon"><i class="fas fa-search"></i></span>
+                <span class="header__icon"><i class="far fa-comment"></i></span>
+                <span class="header__icon"><i class="fas fa-cog"></i></span>
+            </div>
+        </header>
     </body>
 </html>
